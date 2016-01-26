@@ -15,7 +15,11 @@ class SeaOfBTCapp(tk.Tk):
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
 
-        self.frames = {}
+''' Define an empty dictionary. 
+	this dictionary will contain all the frames the we defined for
+	for our program.
+'''
+        self.frames = {} 
 
         frame = StartPage(container, self)
 
